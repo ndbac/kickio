@@ -29,7 +29,7 @@ const DetailsBid = ({ bid }) => {
             color: COLORS.primary,
           }}
         >
-          Bid placed by {bid.name}
+          Funded by {bid.name}
         </Text>
 
         <Text

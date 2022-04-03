@@ -3,6 +3,8 @@ import eth from "../assets/icons/eth.png";
 import heart from "../assets/icons/heart.png";
 import left from "../assets/icons/left.png";
 import search from "../assets/icons/search.png";
+import check from "../assets/icons/check.png";
+import brand from "../assets/icons/logo.png";
 
 import logo from "../assets/images/logo.png";
 import nft01 from "../assets/images/nft01.png";
@@ -19,6 +21,8 @@ import person03 from "../assets/images/person03.png";
 import person04 from "../assets/images/person04.png";
 
 export default {
+  brand,
+  check,
   badge,
   eth,
   heart,

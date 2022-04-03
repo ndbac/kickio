@@ -47,7 +47,57 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
           textAlign: "center",
         }}
       >
-        Place a bid
+        Back this project
+      </Text>
+    </TouchableOpacity>
+  );
+};
+
+export const ButtonContent = ({ minWidth, fontSize, handlePress, data, ...props }) => {
+  return (
+    <TouchableOpacity
+      style={{
+        backgroundColor: COLORS.primary,
+        borderRadius: SIZES.extraLarge,
+        minWidth,
+        padding: SIZES.small,
+        ...props,
+      }}
+      onPress={handlePress}
+    >
+      <Text
+        style={{
+          fontFamily: FONTS.semiBold,
+          fontSize: fontSize,
+          color: COLORS.white,
+          textAlign: "center",
+        }}
+      >
+        {data}
+      </Text>
+    </TouchableOpacity>
+  );
+};
+
+export const CheckBox = ({ minWidth, fontSize, handlePress, data, ...props }) => {
+  return (
+    <TouchableOpacity
+      style={{
+        backgroundColor: COLORS.primary,
+        borderRadius: SIZES.extraLarge,
+        minWidth,
+        ...props,
+      }}
+      onPress={handlePress}
+    >
+      <Text
+        style={{
+          fontFamily: FONTS.semiBold,
+          fontSize: fontSize,
+          color: COLORS.white,
+        }}
+      >
+        {data}
       </Text>
     </TouchableOpacity>
   );

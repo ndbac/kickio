@@ -1,8 +1,12 @@
 import { View, Text, Image, TextInput } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 import { COLORS, FONTS, SIZES, assets } from "../constants";
+import { CheckBox } from "../components";
 
 const HomeHeader = ({ onSearch }) => {
+  const navigation = useNavigation();
+
   return (
     <View
       style={{
@@ -51,7 +55,7 @@ const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello Victoria 👋
+          Hello starter!
         </Text>
 
         <Text
@@ -62,7 +66,7 @@ const HomeHeader = ({ onSearch }) => {
             marginTop: SIZES.base / 2,
           }}
         >
-          Let’s find masterpiece Art
+          Let’s find a project
         </Text>
       </View>
 
@@ -84,7 +88,7 @@ const HomeHeader = ({ onSearch }) => {
             style={{ width: 20, height: 20, marginRight: SIZES.base }}
           />
           <TextInput
-            placeholder="Search NFTs"
+            placeholder="Search Project"
             style={{ flex: 1 }}
             onChangeText={onSearch}
           />

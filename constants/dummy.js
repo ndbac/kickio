@@ -3,31 +3,31 @@ import assets from "./assets";
 const NFTData = [
   {
     id: "NFT-01",
-    name: "Abstracto #312",
-    creator: "Putri Intan",
-    price: 4.25,
+    name: "Writing and Art Contests",
+    creator: "MASKS Literary Magazine",
+    price: 10.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
+      "MASKS Literary Magazine is a biannual literary arts publication for emerging writers and visual artists. We understand the challenges of trying to develop and sustain a creative practice in the modern world, and have founded our magazine with the express goal of giving new writers a platform and payment for their work.",
     image: assets.nft01,
     bids: [
       {
         id: "BID-11",
         name: "Jessica Tan",
-        price: 4.25,
+        price: 10.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-12",
         name: "Jennifer Sia",
-        price: 4.5,
+        price: 15.75,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-13",
         name: "Rosie Wong",
-        price: 4.75,
+        price: 13.15,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
       },
@@ -35,11 +35,11 @@ const NFTData = [
   },
   {
     id: "NFT-02",
-    name: "Green Coins",
-    creator: "Siti Nurhaliza",
+    name: "Remembering Bears",
+    creator: "Margot Raggett",
     price: 7.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "With your support, Remembering Bears will be a beautiful coffee table book, full of images donated by many of the world's top wildlife photographers and will be published on Monday 10th October 2022. This will hopefully be the seventh book in the Remembering Wildlife series which was created by British wildlife photographer Margot Raggett after she was moved to take action upon seeing a poached elephant in Kenya. We are seeking funding via Kickstarter to make the production of the book possible. For the first time, this year the book will be 160 pages long, an increase of 16 pages on previous books but the price will remain the same.",
     image: assets.nft02,
     bids: [
       {
@@ -78,11 +78,11 @@ const NFTData = [
   },
   {
     id: "NFT-04",
-    name: "Nifty NFT",
+    name: "Dead by Daylight™: The Board Game",
     creator: "Putri Intan",
     price: 54.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur.",
+      "A strategic survival horror experience for 3–5 players. Become a Killer or fight for your life as a Survivor. Death is not an escape.",
     image: assets.nft04,
     bids: [
       {
@@ -117,11 +117,11 @@ const NFTData = [
   },
   {
     id: "NFT-05",
-    name: "Colorful circles",
-    creator: "David doe",
+    name: "Wéko The Mask Gatherer",
+    creator: "Weko Game",
     price: 10.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
+      "A mask gatherer immersed in a beautiful world contrasted by the punishing mechanics of an intense and immersive action RPG.",
     image: assets.nft05,
     bids: [
       {
@@ -135,11 +135,11 @@ const NFTData = [
   },
   {
     id: "NFT-06",
-    name: "Black box model",
-    creator: "Leo Messi",
+    name: "CheerTok: All-in-one Pocket Touchpad for Any Smart Devices",
+    creator: "CheerDots",
     price: 20.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "How would you like the power to conveniently control all your smart devices with a single hand? With CheerTok, you can! This powerful pocket touchpad can be used as an air mouse, touchpad, presenter, laser pointer, and more. Take it with you anywhere - for business meetings, live streaming, selfies, and more. CheerTok is the perfect remote control for any screen! And with customizable shortcuts, CheerTok elevates screen-control to a new level, freeing your hands and saving you time! This single compact controller satisfies all your needs for work and entertainment, streamlining your daily life with convenience and fun!",
     image: assets.nft06,
     bids: [
       {
@@ -181,8 +181,8 @@ const NFTData = [
   },
   {
     id: "NFT-07",
-    name: "Abstracto soulful art",
-    creator: "Victor de la Cruz",
+    name: "SmplTrek | Portable Production Sampler",
+    creator: "SONIC WARE",
     price: 18.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",

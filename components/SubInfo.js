@@ -104,7 +104,7 @@ export const EndDate = () => {
           color: COLORS.primary,
         }}
       >
-        12h 30m
+        13d 02h
       </Text>
     </View>
   );
