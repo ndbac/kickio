@@ -1,8 +1,13 @@
 import { useState } from "react";
-import { View, SafeAreaView, FlatList } from "react-native";
+import { View, SafeAreaView, FlatList, ImageBackground } from "react-native";
 
 import { COLORS, NFTData } from "../constants";
-import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
+import {
+  NFTCard,
+  HomeHeader,
+  FocusedStatusBar,
+  Navigation,
+} from "../components";
 
 const Home = () => {
   const [nftData, setNftData] = useState(NFTData);
@@ -35,7 +40,6 @@ const Home = () => {
             ListHeaderComponent={<HomeHeader onSearch={handleSearch} />}
           />
         </View>
-
         <View
           style={{
             position: "absolute",
@@ -46,10 +50,12 @@ const Home = () => {
             zIndex: -1,
           }}
         >
-          <View style={{ height: 300, backgroundColor: COLORS.primary }} />
+          <View style={{ height: 300, backgroundColor: COLORS.lightPurple }} />
           <View style={{ flex: 1, backgroundColor: COLORS.white }} />
         </View>
       </View>
+
+      <Navigation />
     </SafeAreaView>
   );
 };

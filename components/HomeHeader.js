@@ -1,8 +1,7 @@
-import { View, Text, Image, TextInput } from "react-native";
+import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import { COLORS, FONTS, SIZES, assets } from "../constants";
-import { CheckBox } from "../components";
 
 const HomeHeader = ({ onSearch }) => {
   const navigation = useNavigation();
@@ -10,7 +9,7 @@ const HomeHeader = ({ onSearch }) => {
   return (
     <View
       style={{
-        backgroundColor: COLORS.primary,
+        backgroundColor: COLORS.lightPurple,
         padding: SIZES.font,
       }}
     >
@@ -27,24 +26,26 @@ const HomeHeader = ({ onSearch }) => {
           style={{ width: 90, height: 25 }}
         />
 
-        <View style={{ width: 45, height: 45 }}>
-          <Image
-            source={assets.person01}
-            resizeMode="contain"
-            style={{ width: "100%", height: "100%" }}
-          />
-          <Image
-            source={assets.badge}
-            resizeMode="contain"
-            style={{
-              position: "absolute",
-              width: 15,
-              height: 15,
-              bottom: 0,
-              right: 0,
-            }}
-          />
-        </View>
+        <TouchableOpacity onPress={() => navigation.navigate("Profile")}>
+          <View style={{ width: 45, height: 45 }}>
+            <Image
+              source={assets.person01}
+              resizeMode="contain"
+              style={{ width: "100%", height: "100%" }}
+            />
+            <Image
+              source={assets.badge}
+              resizeMode="contain"
+              style={{
+                position: "absolute",
+                width: 15,
+                height: 15,
+                bottom: 0,
+                right: 0,
+              }}
+            />
+          </View>
+        </TouchableOpacity>
       </View>
 
       <View style={{ marginVertical: SIZES.font }}>
@@ -66,7 +67,7 @@ const HomeHeader = ({ onSearch }) => {
             marginTop: SIZES.base / 2,
           }}
         >
-          Let’s find a project
+          Let's find a project
         </Text>
       </View>
 
@@ -75,7 +76,7 @@ const HomeHeader = ({ onSearch }) => {
           style={{
             width: "100%",
             borderRadius: SIZES.font,
-            backgroundColor: COLORS.gray,
+            backgroundColor: COLORS.white,
             flexDirection: "row",
             alignItems: "center",
             paddingHorizontal: SIZES.font,

@@ -2,6 +2,11 @@ export const COLORS = {
   primary: "#001F2D",
   secondary: "#4D626C",
 
+  input: "#ebe8ff",
+
+  green: "#16cd83",
+  lightPurple: "#6b51fc",
+
   white: "#FFF",
   gray: "#74858C",
 };

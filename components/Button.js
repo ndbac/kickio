@@ -31,7 +31,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
   return (
     <TouchableOpacity
       style={{
-        backgroundColor: COLORS.primary,
+        backgroundColor: COLORS.green,
         borderRadius: SIZES.extraLarge,
         minWidth,
         padding: SIZES.small,
@@ -71,30 +71,6 @@ export const ButtonContent = ({ minWidth, fontSize, handlePress, data, ...props 
           fontSize: fontSize,
           color: COLORS.white,
           textAlign: "center",
-        }}
-      >
-        {data}
-      </Text>
-    </TouchableOpacity>
-  );
-};
-
-export const CheckBox = ({ minWidth, fontSize, handlePress, data, ...props }) => {
-  return (
-    <TouchableOpacity
-      style={{
-        backgroundColor: COLORS.primary,
-        borderRadius: SIZES.extraLarge,
-        minWidth,
-        ...props,
-      }}
-      onPress={handlePress}
-    >
-      <Text
-        style={{
-          fontFamily: FONTS.semiBold,
-          fontSize: fontSize,
-          color: COLORS.white,
         }}
       >
         {data}

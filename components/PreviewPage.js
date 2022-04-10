@@ -29,7 +29,7 @@ export const PreviewPage01 = () => {
           textAlign: "center",
         }}
       >
-        1. Lựa chọn Dự án đầu tư
+        1. Decide project
       </Text>
 
       <View style={{ flexDirection: "row" }}>
@@ -52,7 +52,7 @@ export const PreviewPage01 = () => {
             marginBottom: SIZES.font,
           }}
         >
-          Đầu tư đơn giản, an toàn chỉ từ 50.000 đồng
+          Safe investment from only $2
         </Text>
       </View>
 
@@ -76,15 +76,21 @@ export const PreviewPage01 = () => {
             marginBottom: SIZES.extraLarge,
           }}
         >
-          Đơn giản, dễ dàng, minh bạch và hoàn toàn miễn lệ phí
+          Simple, easy, transparent and completely free of fees
         </Text>
       </View>
 
-      <ButtonContent
-        minWidth={120}
-        fontSize={SIZES.font}
-        data={"Kéo sang để tiếp tục"}
-      />
+      <Text
+        style={{
+          textAlign: "center",
+          fontFamily: FONTS.medium,
+          fontSize: SIZES.medium,
+          color: COLORS.primary,
+          marginBottom: SIZES.extraLarge,
+        }}
+      >
+        1/2
+      </Text>
     </View>
   );
 };
@@ -115,7 +121,7 @@ export const PreviewPage02 = () => {
           textAlign: "center",
         }}
       >
-        2. Nạp tiền và Trải nghiệm
+        2. Recharge & Investing
       </Text>
 
       <View style={{ flexDirection: "row" }}>
@@ -138,7 +144,7 @@ export const PreviewPage02 = () => {
             marginBottom: SIZES.font,
           }}
         >
-          Nạp tiền và theo dõi tài sản tăng trưởng
+          Top up and track your asset growth
         </Text>
       </View>
 
@@ -162,7 +168,7 @@ export const PreviewPage02 = () => {
             marginBottom: SIZES.extraLarge,
           }}
         >
-          Tạo dựng thói quen tích lũy, đầu tư thường xuyên, đều đặn
+          Build a habit of accumulating and investing regularly
         </Text>
       </View>
 

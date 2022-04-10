@@ -6,6 +6,9 @@ import { useFonts } from "expo-font";
 import Home from "./screens/Home";
 import Details from "./screens/Details";
 import Preview from "./screens/Preview";
+import CreateFunds from "./screens/CreateFunds";
+import Profile from "./screens/Profile";
+import Stats from "./screens/Stats";
 
 const theme = {
   ...DefaultTheme,
@@ -24,6 +27,9 @@ const App = () => {
     InterMedium: require("./assets/fonts/Inter-Medium.ttf"),
     InterRegular: require("./assets/fonts/Inter-Regular.ttf"),
     InterLight: require("./assets/fonts/Inter-Light.ttf"),
+    "Roboto-Black": require("./assets2/fonts/Roboto-Black.ttf"),
+    "Roboto-Bold": require("./assets2/fonts/Roboto-Bold.ttf"),
+    "Roboto-Regular": require("./assets2/fonts/Roboto-Regular.ttf"),
   });
 
   if (!loaded) return null;
@@ -39,6 +45,9 @@ const App = () => {
         <Stack.Screen name="Preview" component={Preview} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Details" component={Details} />
+        <Stack.Screen name="Stats" component={Stats} />
+        <Stack.Screen name="CreateFunds" component={CreateFunds} />
+        <Stack.Screen name="Profile" component={Profile} />
       </Stack.Navigator>
     </NavigationContainer>
   );
