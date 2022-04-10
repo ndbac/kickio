@@ -6,14 +6,14 @@ export const portfolio = {
 export const trendingCurrencies = [
   {
     id: 1,
-    currency: "Trolala",
-    code: "Tools",
+    currency: "InfraTech",
+    code: "Software",
     image: require("../assets2/images/bitcoin.png"),
     amount: "29,455.74",
     changes: "+7.24%",
     type: "I", // I - Increased, D - Decreased
     description:
-      "Trolala is a weekend trolley made for the spontaneous journeys life brings. Designed by Natacha Seroussi for Laflore; it was made with reminiscence to bring back the elegance & style from the history of travel.",
+      "InfraTech is a leading provider of IT services, digital transformation consulting, software outsourcing and system monitoring for large enterprises, SMEs and start-ups in the technology space, headquartered in Hanoi.",
     chartData: [
       { x: 1, y: 2.5 },
       { x: 1.5, y: 2 },
@@ -204,7 +204,7 @@ export const trendingCurrencies = [
   },
   {
     id: 3,
-    currency: "Save bears",
+    currency: "North Studio",
     code: "SB",
     image: require("../assets2/images/litecoin.png"),
     amount: "118.33",
@@ -302,7 +302,7 @@ export const trendingCurrencies = [
   },
   {
     id: 4,
-    currency: "KS games",
+    currency: "Hunger games",
     code: "XRP",
     image: require("../assets2/images/ripple.png"),
     amount: "0.24",

@@ -126,7 +126,7 @@ const Stats = () => {
                   selectedCurrency?.type == "I" ? COLORS.green : COLORS.red,
               }}
             >
-              ${selectedCurrency?.changes}
+              {selectedCurrency?.changes}
             </Text>
           </View>
         </View>

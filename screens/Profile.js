@@ -128,7 +128,7 @@ const Profile = () => {
               ${dummyData.portfolio.balance}
             </Text>
             <Text style={{ color: COLORS.white, ...FONTS.body5 }}>
-              ${dummyData.portfolio.changes} Last 24 Hours
+              {dummyData.portfolio.changes} Last 24 Hours
             </Text>
           </View>
 
@@ -157,7 +157,11 @@ const Profile = () => {
   }
 
   function renderAlert() {
-    return <PriceAlert />;
+    return (
+      <View style={{ marginLeft: 25, marginRight: 25 }}>
+        <PriceAlert />
+      </View>
+    );
   }
 
   function renderNotices() {

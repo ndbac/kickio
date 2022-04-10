@@ -52,7 +52,7 @@ export const PreviewPage01 = () => {
             marginBottom: SIZES.font,
           }}
         >
-          Safe investment from only $2
+          Easy and Safe investment from only $2
         </Text>
       </View>
 
@@ -76,7 +76,7 @@ export const PreviewPage01 = () => {
             marginBottom: SIZES.extraLarge,
           }}
         >
-          Simple, easy, transparent and completely free of fees
+          Simple, transparent and completely free of fees
         </Text>
       </View>
 
